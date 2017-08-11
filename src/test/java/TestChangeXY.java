@@ -10,42 +10,42 @@ public class TestChangeXY {
 
     @Test
 
-    public void TestChangeXY1() {
+    public void TestChange_codex() {
         assertMethod("codex", "codey");
 
     }
 
     @Test
 
-    public void TestChangeXY2() {
+    public void TestChange_xxhixx() {
         assertMethod("xxhixx", "yyhiyy");
 
     }
 
     @Test
 
-    public void TestChangeXY3() {
+    public void TestChange_xhixhix() {
         assertMethod("xhixhix", "yhiyhiy");
 
     }
 
     @Test
 
-    public void TestChangeXY4() {
+    public void TestChange_hiy() {
         assertMethod("hiy", "hiy");
 
     }
 
     @Test
 
-    public void TestChangeXY5() {
+    public void TestChange_h() {
         assertMethod("h", "h");
 
     }
 
     @Test
 
-    public void TestChangeXY6() {
+    public void TestChange_x() {
         assertMethod("x", "y");
 
 
@@ -53,28 +53,28 @@ public class TestChangeXY {
 
     @Test
 
-    public void TestChangeXY7() {
+    public void TestChangeX__() {
         assertMethod("", "");
 
     }
 
     @Test
 
-    public void TestChangeXY8() {
+    public void TestChange_xxx() {
         assertMethod("xxx", "yyy");
 
     }
 
     @Test
 
-    public void TestChangeXY9() {
+    public void TestChange_yyhxyi() {
         assertMethod("yyhxyi", "yyhyyi");
 
     }
 
     @Test
 
-    public void TestChangeXY10() {
+    public void TestChange_hihi() {
         assertMethod("hihi", "hihi");
     }
 
