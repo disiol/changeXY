@@ -13,6 +13,7 @@ public class changeXY {
 
     public static String changeXY(String str) {
 
+
         char[] chars = str.toCharArray();
 
         for (int i = 0; i < chars.length; i++) {
