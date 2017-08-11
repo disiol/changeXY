@@ -6,27 +6,9 @@ import java.util.Arrays;
  */
 public class changeXY {
 
-    public static void main(String[] args) {
 
-        assertMethod("codex", "codey");
-        assertMethod("xxhixx", "yyhiyy");
-        assertMethod("xhixhix", "yhiyhiy");
-        assertMethod("hiy", "hiy");
-        assertMethod("h", "h");
-        assertMethod("x", "y");
-        assertMethod("", "");
-        assertMethod("xxx", "yyy");
-        assertMethod("yyhxyi", "yyhyyi");
-        assertMethod("hihi", "hihi");
 
-    }
 
-    protected static void assertMethod(String input, String expected) {
-        String actual = changeXY(input);
-        String status = actual.equals(expected) ? "OK" :
-                "FALL " + " expected: '" + expected + "'  but was: '" + actual +"'";
-        System.out.println(status);
-    }
 
 
     public static String changeXY(String str) {
