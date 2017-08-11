@@ -12,4 +12,12 @@ public class TestChangeXY {
 
 
     }
+
+    protected static void assertMethod(String input, String expected) {
+        String actual = new changeXY(input);
+        String status = actual.equals(expected) ? "OK" :
+                "FALL " + " expected: '" + expected + "'  but was: '" + actual +"'";
+        System.out.println(status);
+    }
+
 }
